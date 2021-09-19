@@ -2,7 +2,7 @@
 for anyone who wants to get an mp4 of their favorite vids
 
 Setup instructions: 
-Change your directory to root directory by running this in terminal (mac/linux/etc) or command prompt (windows) using 'cd /' for mac and 'cd \' for windows
+Change your directory to root directory by running this in terminal (mac/linux/etc) or command prompt (windows) using 'cd /' for mac and backslash for windows
 
 ;O
 
