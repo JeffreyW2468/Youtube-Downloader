@@ -1,5 +1,7 @@
 to resolve python version with brew:
 brew install python
 brew link python
+
+in .bash_profile in user directory:
 alias python='/usr/local/bin/python<insert your version here>'
 
