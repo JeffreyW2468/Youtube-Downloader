@@ -1,0 +1,5 @@
+to resolve python version with brew:
+brew install python
+brew link python
+alias python='/usr/local/bin/python<insert your version here>'
+
