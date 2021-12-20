@@ -24,3 +24,7 @@ Now that you've done these steps, you can navigate to the folder that the script
 
 Paste your youtube video link, wait a minute or two, and voila! Your favorite video is now in that folder :))
 P.S. to have it download to a specific folder, edit the script and pass the full directory path as an argument in the parentheses of the .download() function (i.e. Users/jeff/blah/blah2). If it throws an error, just take a look at the pytube documentation for the download function online and work accordingly. 
+
+
+NOTE: if you run into an AttributeError saying NoneType found blah blah when the script is trying to run .get_highest_resolution, it's likely a problem with the local pytube library itself. To fix this, find where pytube is held and cd there --> open up parser.py in a text editor and go to line 152 and change ```func_regex = re.compile(r"function\([^)]+\)")``` to ```func_regex = re.compile(r"function\([^)]*\)")```
+for more info on this, see this stackoverflow issue: https://stackoverflow.com/questions/70070856/python-pytube-error-nonetype-object-has-no-attribute-span
